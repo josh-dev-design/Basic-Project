@@ -33,7 +33,7 @@ img{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 40px;
 }
 .image:hover{
     transform: rotate(-35deg);
@@ -41,15 +41,15 @@ img{
 }
 .title{
     position: relative;
-    top: 90px;
+    top: 60px;
 }
 .title h2{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 
 }
 .title p{ 
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
 }
 button{
@@ -58,15 +58,17 @@ button{
     border: none;
     outline: none;
     cursor: pointer;
-    width: 50px;
+    width: 45px;
     display: inline;    
     height: 30px;
     background-color: transparent;
 }
 .size{
-    display: inline;
-    padding: 10px;
-    position: relative;
+    display: flex;
+    position: absolute;
+    top: 225px;
+    left: 30px;
+    font-size: 10px;
 }
 .active{
     color: #ffffff;
@@ -74,13 +76,13 @@ button{
 
 }
 .purchase{
-    width: 300px;
+    width: 255px;
     height: 100px;
     background-color: orange;
     color: white;
     height: 30px;
     position: absolute;
     top: 90%;
-    left: 10%;
-    font-size: 20px;
+    left: 7%;
+    font-size: 15px;
 }
