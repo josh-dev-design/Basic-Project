@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    font-family: 'Poppins';
+}
+.container{
+    width: 50%;
+    height: 50%;
+}
+.cards{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 50vh;
+    box-shadow: 0px 15px 15px 5px rgba(0,0,0, 0.35);
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.image:hover{
+    transform: rotate(-35deg);
+    transition: 1s ease-in-out;
+}
+.title{
+    position: relative;
+    top: 90px;
+}
+.title h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.title p{ 
+    font-size: 15px;
+    font-weight: 500;
+}
+button{
+    position: relative;
+    top: 110px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    display: inline;    
+    height: 30px;
+    background-color: transparent;
+}
+.size{
+    display: inline;
+    padding: 10px;
+    position: relative;
+}
+.active{
+    color: #ffffff;
+    background-color: #2b2b2b;
+
+}
+.purchase{
+    width: 300px;
+    height: 100px;
+    background-color: orange;
+    color: white;
+    height: 30px;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    font-size: 20px;
+}
